@@ -1,0 +1,22 @@
+{
+  "name": "nodejs1",
+  "version": "1.0.0",
+  "description": "this is sample nodejs project for doicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarang0807/trialwithdocker1.git"
+  },
+  "author": "sarang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarang0807/trialwithdocker1/issues"
+  },
+  "homepage": "https://github.com/Sarang0807/trialwithdocker1#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
