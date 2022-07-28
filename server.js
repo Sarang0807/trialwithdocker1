@@ -3,7 +3,7 @@ var app=express();
 
 app.get("/",(req,resp)=>{
      resp.send(
-        "<h1>Vijay Sales </h1>"
+        "<h1>Constro Sales </h1>"
         +"<hr/>"
         +"<h3>Smart Devices for sale</h3>"
         + "<br/>"
@@ -21,21 +21,21 @@ app.get("/",(req,resp)=>{
 
 app.get("/aboutus",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Constro Sales </h1>"
             +"<hr/>"
             +"<h3>Doing ordinary things extraordinarily</h3>"
             + "<br/>"
             + "<ol>"
-            +"<li>Chief Mentor: Ravi Tambade</li>"
-            +"<li>Director: Shubhangi Tambade</li>"
-            +"<li>Subject Matter Expert: Rohit Gore</li>"
+            +"<li>Chief Mentor: xyz </li>"
+            +"<li>Director: abc</li>"
+            +"<li>Subject Matter Expert: abcd</li>"
             + "</ol>"
     );
 });
 
 app.get("/login",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Constrso Sales </h1>"
             + "<h3>Login</h3>"
             +"<hr/>"
             +"<form>"
